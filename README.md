@@ -23,7 +23,7 @@ CLOUDINARY_CLOUD_NAME=
 CLOUDINARY_API_KEY=
 CLOUDINARY_API_SECRET=
 ```
-If you're wondering what the last three do, they help you upload images to a service called [cloudinary](https://cloudinary.com/). You get them after creatin an account.
+If you're wondering what the last three do, they help you upload images to a service called [cloudinary](https://cloudinary.com/). You get them after creating an account.
 Uploading files to a database is dicy so I used cloudinary and uploaded the link to the DB.
 Then run the following command.
 ```
