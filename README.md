@@ -16,6 +16,7 @@ The command will install the dependencies for the server. After that change to t
 cd client
 ```
 Run the installation command to install the dependencies for the react frontend.
+<br/>
 After that's done return to the root folder and create a .env file with the following values,
 ```env
 MONGO_URI=
@@ -23,8 +24,12 @@ CLOUDINARY_CLOUD_NAME=
 CLOUDINARY_API_KEY=
 CLOUDINARY_API_SECRET=
 ```
-If you're wondering what the last three do, they help you upload images to a service called [cloudinary](https://cloudinary.com/). You get them after creating an account.
+If you're wondering what the last three do, they help you upload images to a service called [cloudinary](https://cloudinary.com/)
+<br/>
+You get them after creating an account.
+<br/>
 Uploading files to a database is dicy so I used cloudinary and uploaded the link to the DB.
+<br/>
 Then run the following command.
 ```
 npm run dev
